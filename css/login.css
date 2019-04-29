@@ -1,0 +1,314 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+    height:100%; 
+}
+body {
+    color: #566787;
+    background: #f5f5f5;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 13px;
+    margin:0px;
+    background: url('../img/baruu.jpg');
+    background-size: cover;
+    background-repeat: all;
+    overflow: hidden;
+}
+.gambar{
+    background: url('../img/login1.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+div.content{
+    background: transparent;
+    width: 550px;
+    margin: 0px auto;
+    border-radius: 16px;
+    min-height: 256px;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #e6e6e6;
+    box-shadow: 10px 10px 10px grey;
+}
+div.head{
+    background-color:#E70012;
+    padding: 1px 10px;
+    width: 100%;
+    height: 85px;
+    border-radius: 0px 10px 0px 0px;
+}
+
+div.head h3.s_title{
+    color: white;
+    font-weight: normal;
+    line-height: 50px;
+    text-align:center;
+    text-shadow: black;
+}
+div.logo h3{
+    text-align: center;
+    text-shadow: 1px 2px 5px rgb(0,0,0,0.2);
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 31px;
+    letter-spacing: 0px;
+    padding-bottom: 10px;
+}
+div.logo{
+    background-image: url('../img/titleicon.png');
+    background-position: center;
+    background-size: 250px;
+    background-repeat: no-repeat;
+    width: 270px;
+    height: 300px;
+    margin-top: 25px;
+    margin-left: 0px;
+    float: left;
+    margin-right: 0px;
+}
+div.form{
+    width: 50%;
+    padding: 0px 0px ;
+    color: white;
+    float: right;   
+    border-style: solid;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 5px; 
+    border-color: #e6e6e6;
+}
+
+div.form div.grup{
+    margin: 15px 8px;
+}
+
+div.form div.grup label,
+div.form div.grup input{
+    display: block;
+    color: #4d4d4d;
+}
+
+div.form div.grup label{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+div.form div.showpassword{
+    margin-left: 12px;
+}
+div.form div.showpassword label{
+    font-size: 13px;
+    color: #4d4d4d;
+}
+
+div.form div.grup input[type="text"],
+div.form div.grup input[type="password"]{
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+    background: white;
+    border-style: solid;
+    border-color: #b3b3b3;
+    border-width: 2px;
+    color: black;
+    border-radius: 8px;
+}
+
+div.form div.grup input[type="submit"]{
+    background: #2eb82e;
+    padding: 4px 25px;
+    margin: 0 auto;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    border-style: none;
+    font-weight: bold;
+}
+
+div.form div.grup input[type="submit"]:hover{
+    background: green;
+}
+div.form div.grup a{
+    font-size: 13px;
+    font-weight: bold;   
+    margin-left: 72.9px;
+    cursor: pointer;
+    text-align: center;
+}
+.pr-wrap{
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    display: none;
+}
+.show-pass-reset{
+    display: block !important;
+}
+.pass-reset{
+    margin: 0 auto;
+    width: 250px;
+    position: relative;
+    margin-top: 22%;
+    z-index: 999;
+    background: #FFFFFF;
+    padding: 20px 15px;
+}
+.pass-reset label{
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.pass-reset input[type="email"]{
+    width: 100%;
+    margin: 5px 0 0 0;
+    padding: 5px 10px;
+    background: 0;
+    border: 0;
+    border-bottom: 1px solid #000000;
+    outline: 0;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    color: #000000;
+    outline: 0;
+}
+.pass-reset input[type="submit"]{
+    width: 100%;
+    border: 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-top: 10px;
+    outline: 0;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.pass-reset input[type="submit"]:hover{
+    transition: background-color 0.5s ease;
+}
+.posted-by{
+    position: absolute;
+    bottom: 26px;
+    margin: 0 auto;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.66);
+    padding: 10px;
+    left: 45%;
+}
+div.forgotpass{
+    background: ;
+    width: 330px;
+    margin: 150px auto;
+    border-radius: 16px;
+    min-height: 256px;
+    overflow: hidden;
+    border-style: solid;
+    border-width: 5px;
+    box-shadow: 10px 10px 10px grey;
+}
+div.forgotpass div.grup{
+    padding: 10px 20px ;
+    color: white;
+}
+div.forgotpass div.grup label,
+div.forgotpass div.grup input{
+    display: block;
+    color: #4d4d4d;
+}
+div.hd{
+    color: white;
+    width: 700px;
+    margin: 40px auto;
+    float: center;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: grey;
+    background-color: red;
+}
+div.forgotpass div.grup input[type="text"]{
+    padding: 4px 10px;
+    margin: 0 auto;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 13px;
+    border-style: solid;
+    border-color: grey;
+    font-weight: bold;
+    float: center;
+    width: 100%;
+}     
+div.forgotpass div.grup input[type="submit"]{
+    background: #2eb82e;
+    padding: 4px 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    border-style: none;
+    font-weight: bold;
+    float: center;
+    box-shadow: 3px 3px 3px grey;
+}   
+div.forgotpass div.footer{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+div.forgotpass div.footer input[type="submit"]{
+    background: #2eb82e;
+    padding: 4px 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    border-style: none;
+    font-weight: bold;
+    float: right;
+    box-shadow: 3px 3px 3px grey;
+}   
+div.forgotpass div.footer input[type="button"]{
+    background: red;
+    padding: 4px 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 13px;
+    border-style: none;
+    font-weight: bold;
+    width: 120px;
+    box-shadow: 3px 3px 3px grey;
+}
+
+div.forgotpass div.footer input[type="button"]:hover{
+    background:grey;
+}
+div.forgotpass div.grup input[type="submit"]:hover,
+div.forgotpass div.footer input[type="submit"]:hover{
+    background: green;
+}
+div.title{
+    background: none;
+    margin-top: 5%;
+    color: grey;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: default;
+    text-shadow: 1px 1px 2px grey;
+}

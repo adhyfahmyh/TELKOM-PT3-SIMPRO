@@ -1,0 +1,521 @@
+html,body{
+    padding: 0px;
+    margin: 0px;
+    height:100%; 
+}
+body {
+    color: #566787;
+    background: #f5f5f5;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 13px;
+    margin:0px;
+    background: url('../img/baruu.jpg');
+    background-size: cover;
+    background-repeat: all;
+    overflow: hidden;
+}
+.topnav .pageactive, .topnav a:hover{
+    background-color: #b30000;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 75px;
+    box-shadow: 1px 1px 20px #b30000;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #E70012;
+    position: fixed; 
+    top: 0;
+    width: 100%; 
+}
+.topnav .navindex a {
+    background:#999999;
+    border-bottom-right-radius: 70px;
+    float: left;
+    width: 28%;
+    height: 75px;
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 0px 10px 10px;
+    margin: 0px 0px;
+    text-decoration: none;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 20px 1px;
+    text-decoration: none;
+}
+.logout a{
+  float:right;
+  height:75px;
+  width: 10%;
+  border-style:solid;
+  box-shadow: none;
+  border-width: 0px 1px 0px 0px;
+  overflow: hidden;
+}   
+.container{
+    width: 100%;
+    height: 100%;   
+    padding-top: 3%;
+    overflow-y: scroll;
+}
+div.content{
+    background: #800000;
+    width: 59.5%;
+    height: 450px;
+    border-style: none;
+    border-radius: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 10px 10px 10px rgb(0,0,0,0.5);
+    margin: auto;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.headregister{
+    width: 100%;
+    float: left;
+    background-color: #4d4d4d;
+    margin-right: 0px;
+    border-radius: 20px 20px 0px 0px;
+    text-align: center; 
+    color: white; 
+}
+.tablething{
+    height: 40px;
+    float: right;
+    border-radius: 0px;    
+    padding: 0px;
+    margin-top: 20px;   
+}
+.tablething input[type=text]{
+    width: 70%;
+    border-style: none;
+    border-radius: 0px 5px 5px 0px;
+    margin: 0px;
+    color: black;
+    margin-top: 0px;
+    height: 25px;
+    padding: 10px;
+    box-shadow: 1px 2px 5px black;
+}
+.tablething input[type=submit],.tablething input[type=submit]:hover{
+    float: left;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+    width: 20%;
+    border-style: none;
+    border-radius:5px 0px 0px 5px; 
+    margin: 0px;
+    background-color: #5BB85D;
+    font-size: 15px;
+    box-shadow: 1px 2px 5px black;
+}
+.headregister label{
+    text-shadow: 2px 2px 10px black;
+    font-size: 30px;
+    margin: 15px;
+    font-weight: bolder;
+}
+.headtable label, .topnav .navindex a, .logout a{text-shadow: 1px 1px 5px black;}
+div.form{
+    margin: 0px;
+    width: 100%; 
+    height: 100%;   
+    padding:80px 40px;
+    color: black;
+    float: center;  
+    background-color:;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.form:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+.column label{
+    display: list-item;
+    margin-top: 10px;
+    list-style: none;
+    color: white;
+    text-shadow:3px 3px 10px black;
+}
+.column select{
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    border-radius: 8px; 
+}
+.column textarea{
+    width: 100%;
+    height: 70px;
+    border-radius: 8px;resize: none;    
+    padding: 10px;
+}
+.column input[type=text]{
+    border-radius: 8px;
+    border:none;
+    height: 25px;
+    margin-bottom: 10px;
+    width: 49%;
+    text-align: center;
+}
+.column input[type=number]{
+    width: 50%;
+    border-radius: 8px;
+    border:none;
+    text-align: center;
+    height: 25px;
+}
+.grup{
+    text-align: center;
+    margin-bottom: 5px;
+}
+input[type=submit]{
+    color: white;
+    text-shadow: 2px 3px 5px #333333;
+    width: 97%;
+    height: 50px;
+    border-radius: 10px;
+    border:none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 10px;
+    box-shadow: 1px 3px 10px #333333;
+    background-color: #009900;
+}
+input[type=submit]:hover{
+    background: green;
+    color: white;
+    box-shadow: 1px 1px 10px white;
+}
+input:focus,select:focus,textarea:focus{box-shadow: 1px 1px 10px white;}
+div.content1{
+    margin-top: 70px;
+    background: #800000;
+    width: 80%;
+    height: 478px;
+    border-style: none;
+    border-radius: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 10px 10px 10px rgb(0,0,0,0.5);
+    margin: 60px auto;
+}
+.headtable{
+    background: white;
+    width: 100%;
+    float: left;
+    border-radius: 20px 20px 0px 0px;
+    color: white; 
+    padding: 0px 0px 0px 20px;
+}
+.tablething{
+    height: 40px;
+    float: right;
+    border-radius: 0px;    
+    padding: 0px;
+    margin-top: 20px;   
+}
+.tablething input[type=text]{
+    width: 70%;
+    border-style: none;
+    border-radius: 0px 5px 5px 0px;
+    margin: 0px;
+    color: black;
+    margin-top: 0px;
+    height: 25px;
+    padding: 10px;
+}
+.tablething input[type=submit]{
+    float: left;
+    height: 25px;
+    color: white;
+    font-weight: bold;
+    width: 20%;
+    border-style: none;
+    border-radius:5px 0px 0px 5px; 
+    margin: 0px;
+    background-color: #5BB85D;
+    font-size: 15px;
+}
+.headregister label{
+    text-shadow: 2px 2px 10px black;
+    font-size: 30px;
+    margin: 15px;
+    font-weight: bolder;
+}
+.headtable label, .topnav .navindex a, .logout a{text-shadow: 1px 1px 5px black;}
+.pagination {
+    float: right;
+    margin: 10px 20px 40px 60px;
+}
+.pagination li a {
+    border: solid;
+    border-width: 1px;
+    border-color:red; 
+    font-size: 13px;
+    min-width: 30px;
+    min-height: 30px;
+    color: #999;
+    margin: 0px;
+    line-height: 30px;
+    border-radius: 20px !important;
+    text-align: center;
+    padding: 0 6px;
+}
+.pagination li a:hover {
+    border: solid;
+    border-width: 1px;
+    color: #666;
+}   
+.pagination li a.pageactive {
+    border: solid;
+    border-width: 1px;
+    border-color:red;
+    background: red;
+    color: white;
+}
+.pagination li a.pageactive:hover {   
+    border: solid;
+    border-width: 1px;
+    color: grey;
+}
+.pagination li i {
+    font-size: 16px;
+    padding-top: 6px
+}
+
+.konten{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background: url("../img/background.jpg");
+    background-size: 100%;
+    width:70%;
+    height: 70%;
+    margin: 10% auto auto auto;
+    padding: 1%;
+    border-radius: 10px;
+}
+.gambar{
+    margin:10% auto;
+    border-radius: 50%;
+    width: 40%;
+}
+
+.card1{
+    margin: auto;
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: url("../img/card1.jpg");
+    text-align: center;
+    border-radius:10px;
+}
+
+.card2{
+    margin:auto;
+    float: right;
+    width: 50%;
+    height: 100%;
+    background: url("../img/card1.jpg");
+    border-radius: 10px;
+}
+
+h2.judul{
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 10%;
+    width: auto;
+}
+.tfont{
+    font-size: 18px;
+    margin: auto;
+    width: 90%;
+    height: 50%;
+    border-collapse: collapse;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+.tfont td{
+    color: black;
+    height: 10%;
+}
+
+.tabs{
+    width: auto;
+    list-style: none;
+    position: relative;
+    text-align: left;
+    box-sizing: border-box;
+    font-family: Verdana;
+    padding-bottom: 0px;
+    margin: 8%;
+}
+.tabs li{
+    display: block;
+    float: left;
+
+}
+.tabs label{
+    background: #999999;
+    border-radius: 2px 2px 0 0;
+    cursor: pointer;
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 14px 21px;
+    position: relative;
+    text-transform: uppercase;
+    top: 4px;
+    transition: all 0.2s ease-in-out 0s;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 0px;
+    border: 3px solid #4d4d4d;
+    color: #f2f2f2;
+    text-shadow: 1px 1px 2px black;
+}
+
+.tabs label:hover{
+    background: #4d4d4d;
+    text-shadow: 1px 1px 5px black;
+    color: white;
+}
+
+.tabs .tab-content{
+    background-color: white;
+    display: none;
+    font-size: 14px;
+    left:0;
+    line-height: 25px;
+    overflow: hidden;
+    border-style: none;
+    position: absolute;
+    top: 48px;
+    z-index: 2;
+    box-sizing:border-box;
+    padding:10px;
+    width: 100%;
+    color: black;
+    height: auto;
+    border-radius:20px;
+    border: 3px solid #4d4d4d;
+    
+}
+.tabs [id^="tab"]:checked +label{
+    background:#4d4d4d;
+    padding-top: 17px;
+    top: 0;
+    box-sizing: border-box;
+    text-shadow: 1px 1px 5px black;
+    color: white;
+}
+
+.tabs [id^="tab"]:checked ~ [id^="tab-content"]{
+    display:block;
+}
+
+.tabs input[type="radio"]{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+.tab-content table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 3%;
+}
+.tab-content table.tableuser tr td{
+    text-align: center;
+    padding: 8px;
+    width: 1%;
+    font-size: 13px;
+}
+.tab-content table.tableuser tr th{
+    background-color: #ffffff;
+    table-layout: fixed;
+    width: 3%;
+    text-align: center;
+    padding: 1%;   
+    font-size: 13px;
+}
+table.tableuser tr{
+    border-bottom-style: solid;
+    border-bottom-color: #bfbfbf;
+    height: 50px;
+}
+table.tableuser tbody tr:hover{
+    background-color: #bfbfbf;
+}
+table.tableuser tr:nth-of-type(odd){
+    background-color: #f2f2f2;
+}
+table,th,td{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.tab-content table.tableuser tr th:first-child{
+    width: 1%;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
